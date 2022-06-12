@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,300&display=swap" rel="stylesheet"> -->
+<style>
+     header {
+            border: 0px solid none;
+            display:flex;
+            justify-content:space-evenly;
+            align-items:center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: 0%;
+            background-color: white;
+            position: relative;
+            bottom: -30px;
+
+        }
+     .navbutton{
+            /* border: 0px solid white; */
+            padding: 10px 20px;
+            display: inline-block;
+            color: black;
+            position: relative;
+            justify-self: space-evenly;
+            text-decoration: none;
+            font-family: 'proxima-nova',sans-serif;
+            
+        }
+        #box2 {
+        
+            /* background-color: white; */
+            background-image: url(images/pd2.jpg);
+            /* background-color: white; */
+            background-size: cover;
+            height: 600px;
+        }
+        #box {
+            /* border: 10px solid black; */
+            display: block;
+            width: 700px;
+            height: 400px;
+            margin: 300px ;
+            margin-top: 3%;
+
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            color: black;
+            text-align: start;
+            padding: 65px;
+            font-family: 'Roboto' sans-serif;
+        
+        }
+        .mybutton2{
+           background-color: white;
+           color: black;
+           text-decoration: none;
+           padding: 11px 25px;
+           border-radius: 5px;
+           /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.345); */
+           transition: all 0.2s;
+           
+       }
+
+       a.mybutton2:hover {
+           background-color: #000;
+           color: #fff;
+       }
+       .seyi {
+           font-size: 25px;
+           text-align: center;
+           padding-top: 50px;
+           font-family: 'proxima-nova', sans-serif;
+       }
+       #container {
+           display: flex;
+           justify-content: space-evenly;
+           margin: 100px;
+           /* flex-wrap: wrap; */
+       }
+       #container div {
+           background-color: #fff;
+           margin: 100px;
+           
+       }
+       #container div {
+           position: relative;
+           display: flex;
+           flex-direction: column;
+           border: 1px solid rgba(0,0,0,.125);
+           text-align: center;
+           word-wrap: break-word;
+           background-clip: border-box;
+
+       }
+       #container div .mybutton2 {
+           padding: 5px 10px;
+           margin: 10px 20px;
+           background-color: transparent;
+           color: #814ebf;
+           cursor: pointer;
+
+       }
+       .container2 {
+        display: flex;
+        margin-left: 250px;
+        margin-bottom: 200px;
+
+       }
+       .hello1 {
+           position: absolute;
+           /* flex-direction:column-reverse; */
+           width: 400px;
+           height: 300px;
+           background-color: #2c2c2c;
+           color: #fff;
+           display: inline-table;
+           text-align: start;
+           padding: 10px 20px;
+           /* justify-content: center; */
+           /* box-sizing: border-box; */
+           z-index: 10;
+           margin-top: 300px;
+           margin-left: -150px;
+       }
+       .container3 {
+           display: flex;
+           margin-left: 1000px;
+           margin-top: -80px;
+       }
+       .hello2 {
+        position: absolute;
+           /* flex-direction:column-reverse; */
+           width: 400px;
+           height: 300px;
+           background-color: #2c2c2c;
+           color: #fff;
+           display:inherit;
+           text-align: start;
+           padding: 10px 20px;
+           /* justify-content: center; */
+           /* box-sizing: border-box; */
+           z-index: 10;
+           margin-top: -200px;
+           margin-inline-start: -20px;
+           margin-left: -350px;
+           
+
+       }
+       .container4 {
+           display: flex;
+           margin: 200px;
+           margin-bottom: 200px;
+
+       }
+       .hello3 {
+           position: absolute;
+           /* flex-direction:column-reverse; */
+           width: 400px;
+           height: 300px;
+           background-color: #2c2c2c;
+           color: #fff;
+           display: inline-block;
+           text-align: start;
+           padding: 10px 20px;
+           /* justify-content: center; */
+           /* box-sizing: border-box; */
+           z-index: 10;
+           margin-top: 300px;
+           margin-left: -150px;
+       }
+       .word {
+           text-align: center;
+           font-family: 'Roboto' sans-serif;
+           color: #000;
+       }
+       #index {
+           text-align: center;
+           color: purple;
+           text-decoration: none;
+           border: 0px solid ;
+       }
+       #index .mybutton2 {
+           color: white;
+           background-color: #814ebf;
+           border-radius: 0%;
+       }
+       #index2 {
+           text-align: center;
+           line-height: 1.38;
+           font-style: italic;
+
+
+       }
+       #index3 {
+           border: 0px solid#2c2c2c;
+           background-color: #814ebf;
+           text-align:justify;
+           height: 150px;
+           margin-top: 100px;
+           /* margin-left: 150px; */
+           padding-top: 50px;
+           padding-left: 200px;
+           display: block;
+           justify-content: start;
+           align-items: start;
+           
+           /* box-sizing: border-box; */
+       }
+       #index3 .mybutton2{
+           color: #2c2c2c;
+           border-radius: 0%;
+           margin-left: 70%;
+           margin-bottom: -500px;
+           margin-top: -20px;
+           text-align: center;
+
+       }
+
+
+           
+
+           
+       
+       
+       
+       
+        
+</style>
+</head>
+<body>
+    <header>
+        
+        <div>
+            <a href="">
+
+                <img src="images/logo.png" alt="" srcset="">
+            </a>
+        </div>
+        <nav>
+            <div class="navbutton">
+                <a href="" class="navbutton">SERVICES</a>
+            </div>
+            <div class="navbutton">
+                <a href="" class="navbutton">CONTACT</a>
+            </div>
+            <div class="navbutton">
+                <a href="" class="navbutton">WAGTAIL COURSE</a>
+            </div>
+        </nav>
+       
+    </header>
+    <div id="box2">
+         <div id="box">
+           <!-- <img src="images/pd2.jpg" > -->
+           <div>
+               <br><br>
+            <h1 class="hello">Supreme Rocket</h1>
+            <br>
+            <h1 class="hello">Maintenance</h1>
+            <br>
+           <h2>Your rocket is your $100,000,000 . We get that </h2>
+            <br><br><br><br><br>
+               <a href="#" class="mybutton2">CONTACT US</a>
+        </div>
+
+       </div>
+    </div> 
+    <main>
+        <h3 class="seyi">Your Rocket is valuable. Let the professionals work on it. </h3>
+        <div id="container">
+            <div> <img src="images/pd5.jpg" alt="">
+                
+                  <h2>  It's not a toy!</h2>
+                    <p>Or Maybe you're Jeff Bezos.. and rocekts are your toys </p>
+                    <a href="#" class="mybutton2">view services</a>
+
+                
+            </div>
+            <div> <img src="images/pd4.jpg" alt="">
+                <h2>Rockets are cool!</h2>
+                <p>Especially when you see photos like this one</p>
+                <a href="#" class="mybutton2">contact us </a>
+                </div>
+        </div>
+        <div class="container2">
+            <div>
+                <img src="images/pd6.jpg" alt="#" >
+                <div class="hello1"><br><br>
+                    <h2 >Self Landing Rocket</h2><br>
+                    <h3>Probably the coolest thing ever!! We can program this for you.</h3><br>
+                    <a href="" class="mybutton2">MORE DETAILS</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container3">
+            <div>
+                <img src="images/pd7.jpg" alt="">
+                <div class="hello2"><br><br>
+                    <h2 >Self Landing Rocket</h2><br>
+                    <h3>Probably the coolest thing ever!! We can program this for you.</h3><br>
+                    <a href="" class="mybutton2">MORE DETAILS</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="container4">
+            <div>
+                <img src="images/pd8.jpg" alt="">
+                <div class="hello3"><br><br>
+                    <h2 >Self Landing Rocket</h2><br>
+                    <h3>Probably the coolest thing ever!! We can program this for you.</h3><br>
+                    <a href="" class="mybutton2">MORE DETAILS</a>
+                </div>
+            </div>
+
+        </div>
+        <div id="index">
+            <h2 class="word"> We've also partnered with Skynet to maintain humanoid robotics.</h2><br>
+            <a href="" class="mybutton2">CONTACT US</a>
+        </div><br><br><br><br><br>
+        <div id="index2">
+            <h2>Our rockets were so clean they blinded over 1,000 
+                people when they watched our launch.Thanks
+                ROCKETMAN!
+            </h2>
+            <p> --TOTALLY NOT SPACEX</p>
+        </div>
+        
+        
+        
+
+        
+        
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    
+</body>
+</html>
